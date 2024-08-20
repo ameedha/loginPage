@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 120vh;
+    text-align: center;
+    align-items: center;
+    background: url("/image/background2.webp");
+    background-size: cover;
+    margin-right: 40%;
+}
+.container{
+    box-shadow:rgb(2, 102, 102) 1px 1px 5px 5px;
+    border-radius: 5px;
+    align-items: center;
+    margin: auto;
+    height:250px;
+    width: 40%;
+    
+}
+.title{
+    font-size: 600 !important;
+}
+.text{
+    width: 90%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+.btn{
+    width:90%;
+    height: 12%;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.btn:hover{
+    transition: 2s;
+    background:rgb(2, 102, 102) ;
+}
